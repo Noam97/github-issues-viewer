@@ -1,0 +1,18 @@
+{
+    "sourceFile": "client/src/components/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1740858880739,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1740858880739,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport IssueList from './components/IssueList';\r\n\r\nfunction App() {\r\n    return (\r\n        <div className=\"App\">\r\n            <h1>GitHub Issues for lakeFS</h1>\r\n            <IssueList />\r\n        </div>\r\n    );\r\n}\r\n\r\nexport default App;\r\n"
+        }
+    ]
+}

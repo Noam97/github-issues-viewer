@@ -1,0 +1,18 @@
+{
+    "sourceFile": "client/client/src/components/IssueList.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1740859395825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1740859395825,
+            "name": "Commit-0",
+            "content": "import React, { useState, useEffect } from 'react';\r\nimport axios from 'axios';\r\nimport IssueItem from './IssueItem';\r\n\r\nconst IssueList = () => {\r\n    const [issues, setIssues] = useState([]);\r\n\r\n    useEffect(() => {\r\n        axios.get('http://localhost:5000/api/issues')\r\n            .then(response => {\r\n                setIssues(response.data);\r\n            })\r\n            .catch(error => {\r\n                console.error('Error fetching issues:', error);\r\n            });\r\n    }, []);\r\n\r\n    return (\r\n        <ul>\r\n            {issues.map(issue => (\r\n                <IssueItem key={issue.id} issue={issue} />\r\n            ))}\r\n        </ul>\r\n    );\r\n}\r\n\r\nexport default IssueList;\r\n"
+        }
+    ]
+}

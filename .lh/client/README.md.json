@@ -1,0 +1,94 @@
+{
+    "sourceFile": "client/README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1740930530356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740930538634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,12 @@\n # GitHub Issues Viewer - lakeFS\n \n-🚀 **A Single Page Application (SPA) for viewing GitHub issues of the `lakeFS` project.**  \n+**A Single Page Application (SPA) for viewing GitHub issues of the `lakeFS` project.**  \n This app displays **issue numbers and titles**, allows expanding an issue for more details, and supports **pagination for browsing multiple pages**.\n \n ---\n \n-## 🌟 **Features**\n+##  **Features**\n ✅ Fetches and displays **GitHub issues** dynamically.  \n ✅ Displays the **issue number** alongside the title.  \n ✅ **Expand button** to reveal full issue details.  \n ✅ **Pagination** to navigate between pages.  \n"
+                },
+                {
+                    "date": 1740930545854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,12 +5,12 @@\n \n ---\n \n ##  **Features**\n-✅ Fetches and displays **GitHub issues** dynamically.  \n-✅ Displays the **issue number** alongside the title.  \n-✅ **Expand button** to reveal full issue details.  \n-✅ **Pagination** to navigate between pages.  \n+Fetches and displays **GitHub issues** dynamically.  \n+Displays the **issue number** alongside the title.  \n+**Expand button** to reveal full issue details.  \n+**Pagination** to navigate between pages.  \n ✅ **Uses GitHub API with authentication** to avoid rate limits.  \n ✅ Built with **React (frontend) and Node.js (backend)** using Axios for API calls.  \n \n ---\n"
+                },
+                {
+                    "date": 1740930558976,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n Fetches and displays **GitHub issues** dynamically.  \n Displays the **issue number** alongside the title.  \n **Expand button** to reveal full issue details.  \n **Pagination** to navigate between pages.  \n-✅ **Uses GitHub API with authentication** to avoid rate limits.  \n-✅ Built with **React (frontend) and Node.js (backend)** using Axios for API calls.  \n+**Uses GitHub API with authentication** to avoid rate limits.  \n+Built with **React (frontend) and Node.js (backend)** using Axios for API calls.  \n \n ---\n \n ## 🛠 **Technologies Used**\n@@ -22,9 +22,9 @@\n - **Database:** None (fetches live data from GitHub)  \n \n ---\n \n-## 🔧 **Installation & Setup**\n+## **Installation & Setup**\n ### **1️⃣ Clone the repository**\n ```bash\n git clone https://github.com/your-username/github-issues-viewer.git\n cd github-issues-viewer\n"
+                },
+                {
+                    "date": 1740930577653,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,8 +23,9 @@\n \n ---\n \n ## **Installation & Setup**\n-### **1️⃣ Clone the repository**\n+### **Clone the repository**\n ```bash\n git clone https://github.com/your-username/github-issues-viewer.git\n cd github-issues-viewer\n+\n"
+                },
+                {
+                    "date": 1740930591775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,4 +28,7 @@\n ```bash\n git clone https://github.com/your-username/github-issues-viewer.git\n cd github-issues-viewer\n \n+Install and Start the Backend\n+cd server\n+npm install\n"
+                },
+                {
+                    "date": 1740930597945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,4 +31,10 @@\n \n Install and Start the Backend\n cd server\n npm install\n+\n+Run the server:\n+\n+bash\n+Copy\n+Edit\n"
+                },
+                {
+                    "date": 1740930607429,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,8 +33,6 @@\n cd server\n npm install\n \n Run the server:\n+node index.js\n \n-bash\n-Copy\n-Edit\n"
+                },
+                {
+                    "date": 1740930618455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,4 +35,9 @@\n \n Run the server:\n node index.js\n \n+3️⃣ Install and Start the Frontend\n+bash\n+Copy\n+Edit\n+\n"
+                },
+                {
+                    "date": 1740930624922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,9 +35,7 @@\n \n Run the server:\n node index.js\n \n-3️⃣ Install and Start the Frontend\n-bash\n-Copy\n-Edit\n+Install and Start the Frontend\n \n+\n"
+                },
+                {
+                    "date": 1740930632591,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,6 +36,8 @@\n Run the server:\n node index.js\n \n Install and Start the Frontend\n+cd ../client\n+npm install\n \n \n"
+                },
+                {
+                    "date": 1740930648413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,5 +39,11 @@\n Install and Start the Frontend\n cd ../client\n npm install\n \n+Run the client:\n \n+bash\n+Copy\n+Edit\n+\n+\n"
+                },
+                {
+                    "date": 1740930654400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,10 +40,7 @@\n cd ../client\n npm install\n \n Run the client:\n+npm start\n \n-bash\n-Copy\n-Edit\n \n-\n"
+                },
+                {
+                    "date": 1740930674286,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,4 +43,27 @@\n Run the client:\n npm start\n \n \n+Using GitHub Token (Avoid API Rate Limits)\n+To prevent 403 Forbidden errors due to API rate limits, use a GitHub Personal Access Token.\n+\n+1️⃣ Generate a GitHub Token\n+Go to GitHub Developer Settings.\n+Click \"Generate new token (classic)\".\n+Select public_repo to allow issue data fetching.\n+Generate the token and copy it.\n+2️⃣ Configure .env File\n+Inside the client/ folder, create a .env file and add:\n+\n+ini\n+Copy\n+Edit\n+REACT_APP_GITHUB_TOKEN=your_token_here\n+(Replace your_token_here with your actual GitHub token)\n+\n+🔹 Restart the client after updating the .env file:\n+\n+bash\n+Copy\n+Edit\n+npm start\n"
+                },
+                {
+                    "date": 1740930682363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,9 +46,9 @@\n \n Using GitHub Token (Avoid API Rate Limits)\n To prevent 403 Forbidden errors due to API rate limits, use a GitHub Personal Access Token.\n \n-1️⃣ Generate a GitHub Token\n+Generate a GitHub Token\n Go to GitHub Developer Settings.\n Click \"Generate new token (classic)\".\n Select public_repo to allow issue data fetching.\n Generate the token and copy it.\n"
+                },
+                {
+                    "date": 1740930689037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,14 +46,14 @@\n \n Using GitHub Token (Avoid API Rate Limits)\n To prevent 403 Forbidden errors due to API rate limits, use a GitHub Personal Access Token.\n \n-Generate a GitHub Token\n+Generate a GitHub Token:\n Go to GitHub Developer Settings.\n Click \"Generate new token (classic)\".\n Select public_repo to allow issue data fetching.\n Generate the token and copy it.\n-2️⃣ Configure .env File\n+Configure .env File\n Inside the client/ folder, create a .env file and add:\n \n ini\n Copy\n"
+                },
+                {
+                    "date": 1740930699301,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -53,12 +53,8 @@\n Select public_repo to allow issue data fetching.\n Generate the token and copy it.\n Configure .env File\n Inside the client/ folder, create a .env file and add:\n-\n-ini\n-Copy\n-Edit\n REACT_APP_GITHUB_TOKEN=your_token_here\n (Replace your_token_here with your actual GitHub token)\n \n 🔹 Restart the client after updating the .env file:\n"
+                },
+                {
+                    "date": 1740930706054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,13 +52,14 @@\n Click \"Generate new token (classic)\".\n Select public_repo to allow issue data fetching.\n Generate the token and copy it.\n Configure .env File\n+\n Inside the client/ folder, create a .env file and add:\n REACT_APP_GITHUB_TOKEN=your_token_here\n (Replace your_token_here with your actual GitHub token)\n \n-🔹 Restart the client after updating the .env file:\n+Restart the client after updating the .env file:\n \n bash\n Copy\n Edit\n"
+                },
+                {
+                    "date": 1740930716434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n Built with **React (frontend) and Node.js (backend)** using Axios for API calls.  \n \n ---\n \n-## 🛠 **Technologies Used**\n+## **Technologies Used**\n - **Frontend:** React.js, Axios, CSS  \n - **Backend:** Node.js, Express.js  \n - **API:** GitHub REST API v3  \n - **Database:** None (fetches live data from GitHub)  \n@@ -58,9 +58,5 @@\n REACT_APP_GITHUB_TOKEN=your_token_here\n (Replace your_token_here with your actual GitHub token)\n \n Restart the client after updating the .env file:\n-\n-bash\n-Copy\n-Edit\n npm start\n"
+                },
+                {
+                    "date": 1740930721625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,9 +42,8 @@\n \n Run the client:\n npm start\n \n-\n Using GitHub Token (Avoid API Rate Limits)\n To prevent 403 Forbidden errors due to API rate limits, use a GitHub Personal Access Token.\n \n Generate a GitHub Token:\n"
+                }
+            ],
+            "date": 1740930530356,
+            "name": "Commit-0",
+            "content": "# GitHub Issues Viewer - lakeFS\n\n🚀 **A Single Page Application (SPA) for viewing GitHub issues of the `lakeFS` project.**  \nThis app displays **issue numbers and titles**, allows expanding an issue for more details, and supports **pagination for browsing multiple pages**.\n\n---\n\n## 🌟 **Features**\n✅ Fetches and displays **GitHub issues** dynamically.  \n✅ Displays the **issue number** alongside the title.  \n✅ **Expand button** to reveal full issue details.  \n✅ **Pagination** to navigate between pages.  \n✅ **Uses GitHub API with authentication** to avoid rate limits.  \n✅ Built with **React (frontend) and Node.js (backend)** using Axios for API calls.  \n\n---\n\n## 🛠 **Technologies Used**\n- **Frontend:** React.js, Axios, CSS  \n- **Backend:** Node.js, Express.js  \n- **API:** GitHub REST API v3  \n- **Database:** None (fetches live data from GitHub)  \n\n---\n\n## 🔧 **Installation & Setup**\n### **1️⃣ Clone the repository**\n```bash\ngit clone https://github.com/your-username/github-issues-viewer.git\ncd github-issues-viewer\n"
+        }
+    ]
+}

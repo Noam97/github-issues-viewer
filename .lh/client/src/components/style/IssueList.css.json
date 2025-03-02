@@ -1,0 +1,26 @@
+{
+    "sourceFile": "client/src/components/style/IssueList.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1740930238208,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740930261412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     margin-left: 20px; \r\n }\r\n \r\n li {\r\n-    margin-bottom: 12px;  /* ריווח בין ה-*issues* */\r\n-    font-size: 18px;      /* גודל הטקסט */\r\n+    margin-bottom: 12px; \r\n+    font-size: 10px;    \r\n }\r\n"
+                },
+                {
+                    "date": 1740930273491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     margin-left: 20px; \r\n }\r\n \r\n li {\r\n-    margin-bottom: 12px; \r\n-    font-size: 10px;    \r\n+    margin-bottom: 5px; \r\n+    font-size: 18px;    \r\n }\r\n"
+                }
+            ],
+            "date": 1740930238208,
+            "name": "Commit-0",
+            "content": "ul {\r\n    list-style-type: none;\r\n    padding-left: 20px;\r\n    margin-left: 20px; \r\n}\r\n\r\nli {\r\n    margin-bottom: 12px;  /* ריווח בין ה-*issues* */\r\n    font-size: 18px;      /* גודל הטקסט */\r\n}\r\n"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "sourceFile": "client/style/IssueList.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1740929717626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740929722747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n ul {\r\n     list-style-type: none;\r\n-    padding-left: 20px; /* נותן ריווח מהשמאל */\r\n-    margin-left: 20px; /* מזיז את כל הרשימה ימינה */\r\n+    padding-left: 20px;\r\n+    margin-left: 20px; \r\n }\r\n"
+                }
+            ],
+            "date": 1740929717626,
+            "name": "Commit-0",
+            "content": "ul {\r\n    list-style-type: none;\r\n    padding-left: 20px; /* נותן ריווח מהשמאל */\r\n    margin-left: 20px; /* מזיז את כל הרשימה ימינה */\r\n}\r\n"
+        }
+    ]
+}

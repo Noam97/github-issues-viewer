@@ -1,0 +1,18 @@
+{
+    "sourceFile": "server/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1740859953215,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1740859953215,
+            "name": "Commit-0",
+            "content": "const express = require('express');\nconst axios = require('axios');\nconst cors = require('cors');\nconst app = express();\n\napp.use(cors());\n\napp.get('/api/issues', async (req, res) => {\n    try {\n        const response = await axios.get('https://api.github.com/repos/treeverse/lakeFS/issues', {\n            headers: {\n                'Accept': 'application/vnd.github.v3+json'\n            }\n        });\n        res.json(response.data);\n    } catch (error) {\n        res.status(500).json({ error: 'Failed to fetch issues' });\n    }\n});\n\nconst PORT = process.env.PORT || 5000;\napp.listen(PORT, () => console.log(`Server running on port ${PORT}`));\n"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "client/src/components/IssuesItem.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1740858896127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1740858896127,
+            "name": "Commit-0",
+            "content": "import React, { useState } from 'react';\r\n\r\nconst IssueItem = ({ issue }) => {\r\n    const [expanded, setExpanded] = useState(false);\r\n\r\n    const toggleExpand = () => {\r\n        setExpanded(!expanded);\r\n    };\r\n\r\n    return (\r\n        <li>\r\n            <button onClick={toggleExpand}>\r\n                {expanded ? '-' : '+'}\r\n            </button>\r\n            <a href={issue.html_url} target=\"_blank\" rel=\"noopener noreferrer\">\r\n                {issue.title}\r\n            </a>\r\n            {expanded && <p>{issue.body}</p>}\r\n        </li>\r\n    );\r\n}\r\n\r\nexport default IssueItem;\r\n"
+        }
+    ]
+}

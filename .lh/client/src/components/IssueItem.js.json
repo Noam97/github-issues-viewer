@@ -1,0 +1,22 @@
+{
+    "sourceFile": "client/src/components/IssueItem.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1740861456908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1740862042986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n             </button>\r\n             <a href={issue.html_url} target=\"_blank\" rel=\"noopener noreferrer\">\r\n                 #{issue.number} - {issue.title}\r\n             </a>\r\n-            {expanded && <p>{issue.body}</p>}\r\n+            {expanded && <p>{issue.body || \"No description available.\"}</p>}\r\n         </li>\r\n     );\r\n };\r\n \r\n"
+                }
+            ],
+            "date": 1740861456908,
+            "name": "Commit-0",
+            "content": "import React, { useState } from 'react';\r\n\r\nconst IssueItem = ({ issue }) => {\r\n    const [expanded, setExpanded] = useState(false);\r\n\r\n    return (\r\n        <li>\r\n            <button onClick={() => setExpanded(!expanded)}>\r\n                {expanded ? '-' : '+'}\r\n            </button>\r\n            <a href={issue.html_url} target=\"_blank\" rel=\"noopener noreferrer\">\r\n                #{issue.number} - {issue.title}\r\n            </a>\r\n            {expanded && <p>{issue.body}</p>}\r\n        </li>\r\n    );\r\n};\r\n\r\nexport default IssueItem;\r\n"
+        }
+    ]
+}
