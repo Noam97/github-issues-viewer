@@ -1,6 +1,6 @@
-# GitHub Issues Viewer - lakeFS
+# GitHub Issues Viewer
 
-**A Single Page Application (SPA) for viewing GitHub issues of the `lakeFS` project.**  
+**A Single Page Application (SPA) for viewing GitHub issues.**  
 This app displays **issue numbers and titles**, allows expanding an issue for more details, and supports **pagination for browsing multiple pages**.
 
 ---
